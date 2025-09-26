@@ -10,12 +10,6 @@ public class CameraLogic : MonoBehaviour
 
     static CinemachineCamera ActiveCamera = null;
 
-
-
-
-
-    
-
     public static bool isActivCamera (CinemachineCamera cam)
     {
         return cam == ActiveCamera;
